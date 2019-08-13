@@ -16,21 +16,51 @@ GO FOR IT  :D   Don't worry about getting it exact!
 * {
   margin: 0;
   padding: 0;
+  font-family: "Times New Roman", serif;
+  color: #656565;
 }
 
 #container {
   margin: 30px 235px;
   text-align: center;
+  font-family: "Times New Roman", serif;
 }
 
 .logo-box {
-  width: 200px;
-  height: 100px;
+  width: 225px;
+
+  margin-left: 10px;
   display: inline-block;
-  border: 3px solid brown;
-  background-color: #b08a73;
+
+  margin: 5px;
+}
+.logo-box img {
+  border: 4px solid #9b999c;
 }
 
 header {
   text-align: left;
+}
+
+section {
+  text-align: left;
+  line-height: 17px;
+}
+
+footer p {
+  text-align: left;
+}
+
+footer {
+  text-align: left;
+}
+
+.date {
+  color: #4896ca;
+  font-size: 14px;
+}
+
+.read-more {
+  color: #4896ca;
+  text-decoration: none;
 }
